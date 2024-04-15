@@ -6,70 +6,76 @@
     font-style: normal;
     font-display: swap;
 }*/
+#header {
+  padding: 30px 0;
+  height: 92px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: all 0.5s;
+  z-index: 997;
+}
 a{
-    color: black !important;
+  color: whitesmoke !important;
 }
 #bs-example-navbar-collapse-1 ul  {
-    display:  flex!important;
-}
-label{
-    color: skyblue;
+  display:  flex!important;
 }
 .recherche{
-    margin-top: 12px;
+  margin-top: 12px;
 }
 .recherche form input{
-    border-radius: 10px;
-    text-align: center;
-    border-color: skyblue;
+  border-radius: 10px;
+  
 }
 .navbar-default{
-    background: white !important;
-    border-color: rgba(255, 255, 255, 0) !important;
+  background: rgba(255, 255, 255, 0) !important;
+  border-color: rgba(255, 255, 255, 0) !important;
 }
 #hero {
-    display: table;
-    width: 100%;
-    height: 100vh;
-    background: url(../image/OIP.jfif) top center fixed;
-    background-size: cover;
-  }
-  #hero .hero-container {
-    display: table-cell;
-    margin: 0;
-    text-align: center;
-    vertical-align: middle;
-  }
-  #gray{
-    background: #8080809e;
-    display: table;
-    width: 100%;
-    height: 100vh;
-    padding-top: 200px;
-  }
-  #hero div div h1 {
-    margin: 30px 0 10px 0;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 56px;
-    text-transform: uppercase;
-    color: #fff;
-  }
-  #hero div div h2 {
-    color: #eee;
-    margin-bottom: 50px;
-    font-size: 50px;
-  }
-  #hero div div .btn {
-    font-family:  sans-serif;
-    text-transform: uppercase;
-    font-weight: 500;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 8px 28px;
-    border-radius: 50px;
-    transition: 0.5s;
-    margin: 10px;
-    border: 2px solid #fff;
-    color: white !important;
-  }
+  display: table;
+  width: 100%;
+  height: 100vh;
+  background: url(../image/OIP.jfif) top center fixed;
+  background-size: cover;
+}
+#hero .hero-container {
+  display: table-cell;
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+#gray{
+  background: #8080809e;
+  display: table;
+  width: 100%;
+  height: 100vh;
+  padding-top: 200px;
+}
+#hero div div h1 {
+  margin: 30px 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #fff;
+}
+#hero div div h2 {
+  color: #eee;
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+#hero div div .btn {
+  font-family:  sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: white !important;
+}
