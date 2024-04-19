@@ -6,6 +6,13 @@
     font-style: normal;
     font-display: swap;
 }*/
+#my-navbar{
+  background: gray;
+}
+.btn-info{
+  background: black !important;
+  border-color: white !important;
+}
 #header {
   padding: 30px 0;
   height: 92px;
@@ -19,19 +26,11 @@
 a{
   color: whitesmoke !important;
 }
-#bs-example-navbar-collapse-1 ul  {
-  display:  flex!important;
-}
-.recherche{
-  margin-top: 12px;
-}
-.recherche form input{
-  border-radius: 10px;
-  
-}
 .navbar-default{
-  background: rgba(255, 255, 255, 0) !important;
-  border-color: rgba(255, 255, 255, 0) !important;
+  background: gray !important;
+}
+#navbar-collapse ul li a:hover{
+  background: black;
 }
 #hero {
   display: table;
