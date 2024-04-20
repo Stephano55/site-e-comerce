@@ -114,11 +114,17 @@ a{
   background: black;
   color: white;
 }
+.article div div div input:hover{color: white;}
 .see{
   margin-top: 20px;
 }
 .see div div a{
   color: black !important;
   border-color: black;
+}
+#Stockings{
+  background: #000000bf;
+  padding: 20px;
+  color: white;
 }
 
