@@ -7,7 +7,7 @@
     font-display: swap;
 }*/
 #my-navbar{
-  background: gray;
+  background: #80808098;
 }
 .btn-info{
   background: black !important;
@@ -96,8 +96,29 @@ a{
   border: 2px solid #fff;
   color: white !important;
 }
-#mainty{
+.mainty{
   background: black !important;
   color: white !important;
+}
+#Tops{
+  background: #8080802e;
+  padding: 20px;
+}
+.article{
+  margin-top: 10px;
+}
+.article div div img{
+  margin-top: 10px;
+}
+.article div div div input{
+  background: black;
+  color: white;
+}
+.see{
+  margin-top: 20px;
+}
+.see div div a{
+  color: black !important;
+  border-color: black;
 }
 
