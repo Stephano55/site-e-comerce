@@ -24,13 +24,31 @@
   z-index: 997;
 }
 a{
-  color: whitesmoke !important;
+  color: whitesmoke !important; 
 }
 .navbar-default{
   background: gray !important;
 }
 #navbar-collapse ul li a:hover{
   background: black;
+  border-radius: 5px;
+}
+.navbar-search{
+  margin-top: 12px;
+  margin-left: 10px;
+}
+.navbar-search input{
+  border-radius: 5px;
+  border-style: none;
+  width: 200px;
+  height: 30px;
+}
+.dropdown-menu{
+  background: black !important;
+}
+.dropdown-menu li a:hover{
+  background: white !important;
+  color: black !important;
 }
 #hero {
   display: table;
@@ -78,3 +96,8 @@ a{
   border: 2px solid #fff;
   color: white !important;
 }
+#mainty{
+  background: black !important;
+  color: white !important;
+}
+
