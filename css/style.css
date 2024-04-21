@@ -131,4 +131,24 @@ a{
   background: #8080802e;
   padding: 20px;
 }
+#Others{
+  background: #000000bf;
+  padding: 20px;
+  color: white;
+}
+footer{
+  padding: 10px;
+  background: black;
+  color: white;
+}
+.footListe{
+  list-style: none;
+}
+.footListe li{
+  margin-top: 5px;
+}
+footer .btn{
+  background: white !important;
+  color: black !important;
+}
 
